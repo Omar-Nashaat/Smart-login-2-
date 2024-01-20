@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.1s;
+}
+
+a:hover {
+    color: red;
+}
+
+body {
+    background-color: #24353f;
+}
+
+.content {
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.content h1 {
+    color: #17a2b8;
+    padding: 48px 48px 16px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.container {
+    width: 60%;
+}
+
+.inputs input {
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.inputs input::placeholder {
+    color: white;
+}
+
+.inputs input:focus {
+    color: white;
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 5px #719ECE;
+}
+
+.inputs button {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.content h5 {
+    padding-bottom: 50px;
+    color: white;
+}
+
+.btn {
+    background-color: transparent;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+
+.btn:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.content h2 {
+    color: #17a2b8;
+}
+
+header {
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+
+.navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logOutBtn {
+    background-color: transparent;
+    border: 1px solid #ffc107;
+    color: white
+}
+
+.logOutBtn:hover {
+    background-color: #ffc107;
+}
